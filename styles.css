@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: peachpuff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    position: relative;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yes {
+    background-color: green;
+    color: white;
+}
+
+#yes:hover {
+    background-color: limegreen;
+}
+
+#no {
+    background-color: red;
+    color: white;
+    position: absolute;
+}
